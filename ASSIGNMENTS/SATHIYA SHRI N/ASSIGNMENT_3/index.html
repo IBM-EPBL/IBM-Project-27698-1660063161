@@ -1,0 +1,24 @@
+<html>
+<head>
+    <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "3a6ac405-f14a-4abd-85a7-08afbf1a9c53", // The ID of this integration.
+          region: "jp-tok", // The region your integration is hosted in.
+          serviceInstanceID: "5ddd0996-e43e-479a-b9e8-5a71596167d4", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script>
+</head>
+
+<body>
+<img src="https://mlkml.s3.jp-tok.cloud-object-storage.appdomain.cloud/OB1.jpg" alt="Butterfly" width="500" height="600">
+<img src="https://mlkml.s3.jp-tok.cloud-object-storage.appdomain.cloud/OB2.jpg" alt="Butterfly" width="500" height="600">
+<img src="https://mlkml.s3.jp-tok.cloud-object-storage.appdomain.cloud/OB3.jpg" alt="Butterfly" width="500" height="600">
+<img src="https://mlkml.s3.jp-tok.cloud-object-storage.appdomain.cloud/OB4.jpg" alt="Butterfly" width="500" height="600">
+</body>
+</html>
